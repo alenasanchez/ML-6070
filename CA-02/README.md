@@ -1,12 +1,14 @@
 # ML-6070: CA-02
 
-Exploratory Data Analysis: India Air Quality
+Spam e-Mail Detection using Naive Bayes Classification Algorithm
 
-Project Description:
+Project Description: 
+
+In this project we utuilize Python to develop and train a model with a set of emails that are labelled as either Spam or Not Spam. There is a total of 702 emails in the training dataset that are equally divided into these cataegories. This model is then tetsted with a set of 260 emails, which we will then ask the model to predict whether or not these emails are spam or not. Lastly, we will compare the accuracy of the results with the correct classifications.
 
 How to Install and Run Project:
 
-First, download CA-01 zip file from GitHub. Unzip folder on local drive, then open Google Colab or any python notebook platform. Upload India_Air_Quality_CA_01.ipynb file in Colab or such platform and then upload data.csv file (file name must remain the same as it is mentioned and used in code). With these prerequisites done, the code can then be suyccessfully ran. Lastly, Python packages such as pandas, matplotlib.pyplot, numpy, and scikit-learn must be installed.
+First, download CA-02 zip file from GitHub. Unzip folder on local drive, then open Google Colab or any python notebook platform. Upload India_Air_Quality_CA_01.ipynb file in Colab or such platform and then upload data.csv file (file name must remain the same as it is mentioned and used in code). With these prerequisites done, the code can then be suyccessfully ran. Lastly, Python packages such as pandas, matplotlib.pyplot, numpy, and scikit-learn must be installed.
 
 Author: Alena Sanchez
 
