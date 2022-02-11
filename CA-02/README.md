@@ -8,7 +8,7 @@ In this project we utuilize Python to develop and train a model with a set of em
 
 How to Install and Run Project:
 
-First, download CA-02 zip file from GitHub. Unzip folder on local drive, then open Google Colab or any python notebook platform. Upload India_Air_Quality_CA_01.ipynb file in Colab or such platform and then upload data.csv file (file name must remain the same as it is mentioned and used in code). With these prerequisites done, the code can then be suyccessfully ran. Lastly, Python packages such as pandas, matplotlib.pyplot, numpy, and scikit-learn must be installed.
+First, download CA-02 zip file from GitHub. Unzip folder on local drive, then open Google Colab. Upload AS_CA_02.ipynb file in Colab and then upload data.csv file (file name must remain the same as it is mentioned and used in code). With these prerequisites done, the code can then be suyccessfully ran. Lastly, Python packages and functions such as numpy, Counter, sklearn.naive_bayes, GaussianNB, sklearn.metrics, accuracy_score, and matplotlib are used in the program.
 
 Author: Alena Sanchez
 
