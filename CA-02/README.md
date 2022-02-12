@@ -8,6 +8,6 @@ In this project we utuilize Python to develop and train a model with a set of em
 
 How to Install and Run Project:
 
-First, download CA-02 zip file from GitHub. Unzip folder on local drive, then open Google Colab. Upload AS_CA_02.ipynb file in Colab and then upload folder onto Google Drive! Once uploaded, in Model Development Section, you can put the path of your folder that calls for the testing and training data. (e.g. '/content/drive/MyDrive/MSBA-CA02-Spam-Mail-Naibe-Bayes-master/Data/train-mails'). Once path is configured, all cells will run with out error. Lastly, ensure Python packages and functions such as numpy, Counter, sklearn.naive_bayes, GaussianNB, sklearn.metrics, accuracy_score, and matplotlib are imported as they are used in the program.
+First, download CA-02 zip file from GitHub. Unzip folder on local drive, then open Google Colab. Upload AS_CA_02.ipynb file in Colab and then download MSBA-CA02-Spam-Mail-Naibe-Bayes folder (https://github.com/ArinB/MSBA-CA02-Spam-Mail-Naibe-Bayes) and upload folder onto Google Drive! Once uploaded, in Model Development Section, you can put the path of your folder that calls for the testing and training data. (e.g. '/content/drive/MyDrive/MSBA-CA02-Spam-Mail-Naibe-Bayes-master/Data/train-mails'). Once path is configured, all cells will run without error. Lastly, ensure Python packages and functions such as numpy, Counter, sklearn.naive_bayes, GaussianNB, sklearn.metrics, accuracy_score, and matplotlib are imported as they are used in the program.
 
 Author: Alena Sanchez
