@@ -13,7 +13,27 @@ How to Install and Run Project:
 url = "https://github.com/ArinB/MSBA-CA-Data/blob/main/CA03/census_data.csv?raw=true"
 data = pd.read_csv(url, encoding = "ISO-8859-1") 
 
-First, download CA-04 zip file from GitHub. Unzip folder on local drive, then open Google Colab. Upload AS_CA_04.ipynb file in Colab. Once .ipynb file is open all cells will run without error. Lastly, ensure Python packages and functions such as from IPython.core.display import Image, import matplotlib.pyplot as plt, import pandas as pd, import numpy as np, from sklearn import tree, from sklearn.datasets import load_iris, import graphviz, from sklearn.tree import DecisionTreeClassifier, from IPython.display import Image, from sklearn.tree import export_graphviz, import pydotplus, from io import StringIO, from sklearn import metrics, from sklearn.metrics import confusion_matrix, from sklearn.metrics import accuracy_score, from sklearn.metrics import recall_score, from sklearn.metrics import precision_score , from sklearn.metrics import f1_score, from sklearn.metrics import classification_report, from sklearn.metrics import roc_curve, from sklearn.metrics import roc_auc_score, import time are imported as they are used in the program.
+First, download CA-04 zip file from GitHub. Unzip folder on local drive, then open Google Colab. Upload AS_CA_04.ipynb file in Colab. Once .ipynb file is open all cells will run without error. Ensure Python packages and functions listed below are installed:
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+from sklearn import tree
+from sklearn.datasets import load_iris
+from sklearn.tree import DecisionTreeClassifier
+import pydotplus
+from io import StringIO
+from sklearn import metrics
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import roc_curve
+from sklearn.metrics import roc_auc_score
+from pandas.core.common import random_state
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+import xgboost as xgb
+from xgboost import XGBClassifier
+import re 
 
 Author: Alena Sanchez
 
