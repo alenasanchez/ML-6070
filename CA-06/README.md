@@ -13,7 +13,7 @@ How to Install and Run Project:
 url = "https://github.com/ArinB/CA05-kNN/raw/master/movies_recommendation_data.csv"
 data = pd.read_csv(url, encoding = "ISO-8859-1") 
 
-First, download CA-06 zip file from GitHub. Unzip folder on local drive, then open Google Colab. Upload AS-CA06.ipynb file in Colab. Once .ipynb file is open all cells will run without error. Ensure Python packages and functions listed below are installed:
+First, download CA-06 zip file from GitHub. Unzip folder on local drive, then open Google Colab. Upload AS_CA06.ipynb file in Colab. Once .ipynb file is open all cells will run without error. Ensure Python packages and functions listed below are installed:
 
 - import matplotlib.pyplot as plt
 - import pandas as pd
